@@ -1,0 +1,44 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.face{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+   background: rgb(224, 187, 21);
+}
+.eye{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+   background: #fff;
+   border-radius: 60px;
+   top: 100px;
+}
+.dot{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 30px;
+    left: 15px;
+    top: 15px;
+}
+.month{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    background: #fff;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -50px;
+}
+.right{
+    right: 100px;
+}
+.left{
+    left: 100px;
+}
