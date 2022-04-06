@@ -31,10 +31,11 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    background: rgb(33, 241, 113);
+    background: rgb(241, 33, 33);
     bottom: 50px;
     left: 50%;
     margin-left: -50px;
+    border-radius: 200px 200px 0 0;
 }
 .right{
     right: 100px;
