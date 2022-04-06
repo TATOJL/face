@@ -31,11 +31,21 @@
     position: absolute;
     width: 100px;
     height: 60px;
-    background: rgb(241, 33, 33);
+    background: #fff;
     bottom: 50px;
     left: 50%;
     margin-left: -50px;
-    border-radius: 200px 200px 0 0;
+    
+}
+.tongue
+{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border-radius: 50px 50px 0 0;
+    background: red;
+    margin-left: 25px;
+    top: 35px;
 }
 .right{
     right: 100px;
